@@ -23,23 +23,23 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 ```
-create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
+ create table student(rollno int,name char(40),age int,address varchar(50),phoneno int);
 ```
 
 ### OUTPUT:
-![image](https://github.com/22008539/G2_DBMS/assets/118707617/d4078461-29d3-4714-aa2b-d859b4552fa6)
+![1](https://github.com/Mamthaiyappaprabu/G2_DBMS/assets/119393563/c373d71a-91bc-4ce3-bf76-0dc36f916098)
 
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
 ```
-alter table student add department char(30);
+alter table student add department char(50);
 ```
 
 ### OUTPUT:
-![image](https://github.com/22008539/G2_DBMS/assets/118707617/2c22e52a-f697-4647-8c27-19b5dbb87d15)
 
+![2](https://github.com/Mamthaiyappaprabu/G2_DBMS/assets/119393563/4ac9e6fc-b83d-43c1-82ed-b39af13b8274)
 
 ### 3) Drop the student table
  
@@ -49,8 +49,8 @@ drop table student;
 ```
 
 ### OUTPUT:
-![image](https://github.com/22008539/G2_DBMS/assets/118707617/d0c90400-b82a-4d48-898f-1d18b60f2f8a)
 
+![drop](https://github.com/Mamthaiyappaprabu/G2_DBMS/assets/119393563/30b61eaa-0282-42b1-82e0-f71d6fc1c681)
 
 
 ### 4) Delete the student table using truncate keyword
@@ -61,8 +61,8 @@ truncate table student;
 ```
 
 ### OUTPUT:
-![image](https://github.com/22008539/G2_DBMS/assets/118707617/a7cf6059-f7e7-4b7f-9db9-8e45b0246324)
 
+![3](https://github.com/Mamthaiyappaprabu/G2_DBMS/assets/119393563/b68216b9-00cf-4fa3-b025-788b75f6b698)
 
 
 ### 5) Rename the student table to mystudent
@@ -73,7 +73,9 @@ alter table student rename to mystudent;
 ```
 
 ### OUTPUT:
-![image](https://github.com/22008539/G2_DBMS/assets/118707617/9d838847-3a92-4ec4-a2e6-a98d06085ad0)
+![4(1)](https://github.com/Mamthaiyappaprabu/G2_DBMS/assets/119393563/4c7bdff5-4934-4667-95ad-9911dd6e4ba2)
+![4(2)](https://github.com/Mamthaiyappaprabu/G2_DBMS/assets/119393563/05636ef7-70f7-441d-b804-bd29fb2b40dc)
+
 
 ### RESULT:
 
